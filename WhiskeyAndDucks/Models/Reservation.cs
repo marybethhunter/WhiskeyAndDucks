@@ -8,6 +8,7 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public OccasionType Type { get; set; }
+        public Whiskey Whiskey { get; set; }
     }
 
         public enum OccasionType
